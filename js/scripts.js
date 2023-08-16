@@ -5,12 +5,12 @@ function calculation(event) {
     const num3 = parseInt(document.querySelector("side3").value);
 
     let result;
-if (num1 === num2 && num1 === num3) {
-    result 
-    } else if (num1 === num2 || num1 === num 3 || num2 === num3) {
-        result
-    } else if (num1 !=== num2 && num1 !=== num3) && num2 !=== num3 {
-        result
+    if (num1 === num2 && num1 === num3) {
+        result; 
+    } else if (num1 === num2 || num1 === num3 || num2 === num3) {
+        result;
+    } else if (num1 != num2 && num1 != num3 && num2 != num3) {
+        result;
     } else {
 
     }

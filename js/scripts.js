@@ -1,12 +1,12 @@
 function calculation(event) {
     event.preventDefault();
     const form = document.querySelector("form");
-    const num1 = parseInt(document.querySelector("side1").value);
-    const num2 = parseInt(document.querySelector("side2").value);
-    const num3 = parseInt(document.querySelector("side3").value);
+    const num1 = parseInt(document.getElementById("side1").value);
+    const num2 = parseInt(document.getElementById("side2").value);
+    const num3 = parseInt(document.getElementById("side3").value);
 
     form.addEventListener("submit", function() {
-        
+        window.alert(result);
     });
 
     let result;
@@ -20,3 +20,4 @@ function calculation(event) {
 
     }
 }
+ 

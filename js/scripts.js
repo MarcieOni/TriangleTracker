@@ -1,3 +1,14 @@
+function hideStuff() {
+    document.getElementById("equilateral").setAttribute("class", "hidden");
+    document.getElementById("isosceles").setAttribute("class", "hidden");
+    document.getElementById("scalene").setAttribute("class", "hidden");
+    document.getElementById("error").setAttribute("class", "hidden");
+}
+
+window.onload = function() {
+    hideStuff();
+}
+
 function calculation(event) {
     event.preventDefault();
     const form = document.querySelector("form");
